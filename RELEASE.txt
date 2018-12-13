@@ -1,0 +1,2 @@
+- Improve error reporting for firmware update
+- Fix erroneous error message during firmware update of devices in bootloader
