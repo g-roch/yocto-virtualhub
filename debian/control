@@ -1,0 +1,24 @@
+Source: yocto-virtualhub
+Section: non-free/admin
+Priority: extra
+Maintainer: Gabriel Roch <gabriel@g-roch.ch>
+Build-Depends: 
+ debhelper (>= 10),
+ dh-systemd
+Standards-Version: 3.9.8
+Homepage: https://www.yoctopuce.com/
+Vcs-Git: http://sodium.roch.website/git/pako/yocto_virtualhub.git/
+Vcs-Browser: http://sodium.roch.website/git/pako/yocto_virtualhub.git/
+
+Package: yocto-virtualhub
+Architecture: any
+Depends: 
+ ${shlibs:Depends},
+ ${misc:Depends},
+ lsb-base (>= 3.0-6)
+Description: Remote interface for manage yocto-module
+ Yoctopuce designs, manufactures and sells USB devices for automatic system 
+ builders.
+ .
+ Interface for network access to Yocto-module or access by language without USB
+ access.

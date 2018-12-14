@@ -1,0 +1,22 @@
+Ajout d'un Makefile
+--- /dev/null
++++ b/Makefile
+@@ -0,0 +1,18 @@
++
++BIN_amd64=64bits/VirtualHub
++BIN_i386=32bits/VirtualHub
++
++all: virtualhub
++	cp startup_script/yVirtualHub debian/yocto-virtualhub.init
++
++ifdef BIN_$(DEB_TARGET_ARCH)
++virtualhub: $(BIN_$(DEB_TARGET_ARCH))
++else
++virtualhub: $(DEB_TARGET_ARCH)/VirtualHub
++endif
++
++virtualhub:
++	install $< $@
++
++clean:
++	rm -f virtualhub debian/yocto-virtualhub.init
