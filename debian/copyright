@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: Yoctolib_php
+Upstream-Name: VirtualHub
 Upstream-Contact: info@yoctopuce.com 
-Source: https://github.com/yoctopuce/yoctolib_cpp
+Source: http://www.yoctopuce.com/EN/virtualhub.php
 
 Files: *
 Copyright: 2011 and beyond by Yoctopuce Sarl, Switzerland
