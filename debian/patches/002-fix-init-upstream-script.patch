@@ -22,6 +22,15 @@ Change init script for debian
  #
  # VIRTUALHUB_LOGFILE: if set the virtual hub will save the log into
  #                     into this file
+@@ -21,7 +21,7 @@
+ #
+ # VIRTUALHUB_SETTINGS: the file where the virtual hub will save his
+ #                      persisant setting
+-VIRTUALHUB_SETTINGS=/etc/vhub.byn
++VIRTUALHUB_SETTINGS=/etc/yocto-virtualhub.byn
+ #
+ # END OF EDIT SECTION
+ ##################################################################
 @@ -91,6 +91,10 @@
     log_end_msg 0
    fi

@@ -1,3 +1,9 @@
+yocto-virtualhub (1.10.33576-3) unstable; urgency=medium
+
+  * Change configuration filename
+
+ -- Gabriel Roch <gabriel@g-roch.ch>  Fri, 14 Dec 2018 10:55:00 +0100
+
 yocto-virtualhub (1.10.33576-1) unstable; urgency=medium
 
   * Initial release
