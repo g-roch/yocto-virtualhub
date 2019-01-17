@@ -1,1 +1,3 @@
-- Fix some typos in error messages
+- Improve detection of hub URL to enable TLS tunneling (ngrok)
+- Improve Datalogger and Timed reports configuration panel
+- Add support for Timed report notifications in MQTT callback
